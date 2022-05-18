@@ -2,10 +2,15 @@ import React from "react";
 import "animate.css";
 import img2 from "../../image/philadelphia.jpg";
 import education from "./education.css";
+import Helmet from "react-helmet";
 
 export default function Education() {
   return (
     <div >
+      <Helmet>
+      <title>Education </title>
+        <meta name="description" content="Education Abd Al-Rahman Helmi" />
+      </Helmet>
       <div className="d-md-flex ">
         <div className="d-flex justify-content-start ml-4 mt-4 animate__animated animate__backInLeft">
           <div className="edu ">

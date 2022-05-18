@@ -2,16 +2,27 @@ import React from "react";
 
 import workExperince from "./workExperince.css";
 import img3 from "../../image/Elba.jpg";
+import Helmet from "react-helmet";
 
 export default function WorkExperince() {
   return (
     <div className="container">
+      <Helmet>
+        <title>Experince Abd Al-Rahman Helmi</title>
+        <meta name="description" content="Work experince Abd Al-Rahman Helmi" />
+      </Helmet>
       <div className="mt-4">
         <h2 className="work">Work Experince:</h2>
         <div className="d-flex mt-4 ml-4">
-          <h3 className="  animate__animated animate__zoomInDown">Elba House CO. (2019-2021):</h3>
+          <h3 className="  animate__animated animate__zoomInDown">
+            Elba House CO. (2019-2021):
+          </h3>
           <span className="ml-4">
-            <img className="elba animate__animated animate__rollIn" src={img3} alt="elba-logo" />
+            <img
+              className="elba animate__animated animate__rollIn"
+              src={img3}
+              alt="elba-logo"
+            />
           </span>
         </div>
         <ol className="order">

@@ -1,11 +1,16 @@
 import React from "react";
 import about from "./About.css";
-import 'animate.css';
+import "animate.css";
+import Helmet from "react-helmet";
 
 export default function About() {
   return (
     <div className="container">
-      <div className="up" >
+      <Helmet>
+        <title>About Abd Al-Rahman Helmi</title>
+        <meta name="description" content="About Abd Al-Rahman Helmi" />
+      </Helmet>
+      <div className="up">
         <div className="jumbotron animate__animated animate__backInLeft">
           <h4 className="header ">Name : Eng.Abd Alrahman helmi</h4>
         </div>
@@ -21,7 +26,6 @@ export default function About() {
         <div className="jumbotron animate__animated animate__backInRight">
           <h4 className="header ">Location : Shafabadran, Amman, Jordan </h4>
         </div>
-
       </div>
     </div>
   );

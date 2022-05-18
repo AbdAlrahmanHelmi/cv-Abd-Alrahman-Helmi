@@ -13,10 +13,15 @@ import pv from "../../image/PV.png";
 import autocad from "../../image/Autocad-Logo-2009-2014.png";
 import ic3 from "../../image/IC3.jpg";
 import courses from "./courses.css";
+import Helmet from "react-helmet";
 
 export default function Courses() {
   return (
     <div className="container">
+      <Helmet>
+      <title>Learning Abd Al-Rahman Helmi</title>
+        <meta name="description" content="courses Abd Al-Rahman Helmi" />
+      </Helmet>
       <div>
         <h2 className="mt-4 mb-4 ml-4 ">Courses:</h2>
         <h4 className="mt-4 mb-4 ml-4">(FE-Web Development)</h4>

@@ -1,3 +1,4 @@
+import Helmet from "react-helmet";
 import { Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
@@ -11,6 +12,10 @@ import WorkExperince from "./pages/WorkExperince/WorkExperince";
 function App() {
   return (
     <div>
+      <Helmet>
+        <title>Abd Al-Rahman Helmi CV</title>
+        <meta name="description" content="home information" />
+      </Helmet>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />

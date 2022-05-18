@@ -5,10 +5,15 @@ import phone from "../../image/icons8-phone-48.png";
 import whatsapp from "../../image/icons8-whatsapp-48.png";
 import githup from "../../image/icons8-github-64.png";
 import contact from "./contact.css";
+import Helmet from "react-helmet";
 
 export default function Contact() {
   return (
     <div className="container">
+      <Helmet>
+      <title>Contact Abd Al-Rahman Helmi</title>
+        <meta name="description" content="Contact Abd Al-Rahman Helmi" />
+      </Helmet>
       <div className="contact mt-4  animate__animated animate__zoomInDown  ">
         <h2 className="headerContact  ">Contact:</h2>
         <div className="marginTop">
