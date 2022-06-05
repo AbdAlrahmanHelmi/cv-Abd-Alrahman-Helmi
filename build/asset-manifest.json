@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.0af661b7.chunk.css",
-    "main.js": "/static/js/main.1fb964d5.chunk.js",
-    "main.js.map": "/static/js/main.1fb964d5.chunk.js.map",
+    "main.js": "/static/js/main.e9ceb6d8.chunk.js",
+    "main.js.map": "/static/js/main.e9ceb6d8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a89797e1.js",
     "runtime-main.js.map": "/static/js/runtime-main.a89797e1.js.map",
     "static/css/2.3ab8e348.chunk.css": "/static/css/2.3ab8e348.chunk.css",
-    "static/js/2.fbad7284.chunk.js": "/static/js/2.fbad7284.chunk.js",
-    "static/js/2.fbad7284.chunk.js.map": "/static/js/2.fbad7284.chunk.js.map",
+    "static/js/2.e15abd60.chunk.js": "/static/js/2.e15abd60.chunk.js",
+    "static/js/2.e15abd60.chunk.js.map": "/static/js/2.e15abd60.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.3ab8e348.chunk.css.map": "/static/css/2.3ab8e348.chunk.css.map",
     "static/css/main.0af661b7.chunk.css.map": "/static/css/main.0af661b7.chunk.css.map",
-    "static/js/2.fbad7284.chunk.js.LICENSE.txt": "/static/js/2.fbad7284.chunk.js.LICENSE.txt",
+    "static/js/2.e15abd60.chunk.js.LICENSE.txt": "/static/js/2.e15abd60.chunk.js.LICENSE.txt",
     "static/media/Autocad-Logo-2009-2014.65be643a.png": "/static/media/Autocad-Logo-2009-2014.65be643a.png",
     "static/media/Bootstrap_logo.svg.96202db5.png": "/static/media/Bootstrap_logo.svg.96202db5.png",
     "static/media/IC3.cfda1c2b.jpg": "/static/media/IC3.cfda1c2b.jpg",
@@ -21,14 +21,17 @@
     "static/media/abd alrahman helmi.b376bcef.png": "/static/media/abd alrahman helmi.b376bcef.png",
     "static/media/css.4e67641b.jpg": "/static/media/css.4e67641b.jpg",
     "static/media/html.23784160.png": "/static/media/html.23784160.png",
+    "static/media/i18n-react.1581b6c7.png": "/static/media/i18n-react.1581b6c7.png",
     "static/media/javaScript.c863dc1f.png": "/static/media/javaScript.c863dc1f.png",
-    "static/media/tailwind.2f698173.jpg": "/static/media/tailwind.2f698173.jpg"
+    "static/media/tailwind.2f698173.jpg": "/static/media/tailwind.2f698173.jpg",
+    "static/media/united-arab-emirates.fb76a89a.png": "/static/media/united-arab-emirates.fb76a89a.png",
+    "static/media/united-kingdom.c14d3d19.png": "/static/media/united-kingdom.c14d3d19.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a89797e1.js",
     "static/css/2.3ab8e348.chunk.css",
-    "static/js/2.fbad7284.chunk.js",
+    "static/js/2.e15abd60.chunk.js",
     "static/css/main.0af661b7.chunk.css",
-    "static/js/main.1fb964d5.chunk.js"
+    "static/js/main.e9ceb6d8.chunk.js"
   ]
 }

@@ -1,5 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import reactJs from "../../image/React.png";
+import i18n1 from "../../image/i18n-react.png";
+import helmet from "../../image/react-helmet.jpg";
 import html from "../../image/html.png";
 import css from "../../image/css.jpg";
 import javaScript from "../../image/javaScript.png";
@@ -12,19 +15,21 @@ import plc from "../../image/PLC.jpg";
 import pv from "../../image/PV.png";
 import autocad from "../../image/Autocad-Logo-2009-2014.png";
 import ic3 from "../../image/IC3.jpg";
-import courses from "./courses.css";
+import "./courses.css";
 import Helmet from "react-helmet";
 
 export default function Courses() {
+  const [t, i18n] = useTranslation();
+
   return (
     <div className="container">
       <Helmet>
-      <title>Learning Abd Al-Rahman Helmi</title>
+        <title>Learning Abd Al-Rahman Helmi</title>
         <meta name="description" content="courses Abd Al-Rahman Helmi" />
       </Helmet>
       <div>
-        <h2 className="mt-4 mb-4 ml-4 ">Courses:</h2>
-        <h4 className="mt-4 mb-4 ml-4">(FE-Web Development)</h4>
+        <h2 className="mt-4 mb-4 ml-4 ">{t("Courses")}</h2>
+        <h4 className="mt-4 mb-4 ml-4">{t("FE")}</h4>
         {/* <!--Front End --> */}
         <div className="d-flex mt-4 ml-4">
           <h4 className="mt-4 animate__animated animate__slideInLeft">
@@ -36,6 +41,7 @@ export default function Courses() {
             className="logoCourse animate__animated animate__slideInRight"
           />
         </div>
+
         <div className="d-flex mt-4 ml-4">
           <h4 className="mt-4 animate__animated animate__slideInLeft">HTML5</h4>
           <img
@@ -62,6 +68,26 @@ export default function Courses() {
             src={javaScript}
             alt="javaScript logo"
             className="logoCourse javaScript mt-2 ml-2 animate__animated animate__slideInRight"
+          />
+        </div>
+        <div className="d-flex mt-4 ml-4">
+          <h4 className="mt-4 animate__animated animate__slideInLeft">
+            react-i18next
+          </h4>
+          <img
+            src={i18n1}
+            alt="react-logo"
+            className="logoCourse ml-4 animate__animated animate__slideInRight"
+          />
+        </div>
+        <div className="d-flex mt-4 ml-4">
+          <h4 className="mt-4 animate__animated animate__slideInLeft">
+            react-helmet
+          </h4>
+          <img
+            src={helmet}
+            alt="react-logo"
+            className="logoCourse ml-4 animate__animated animate__slideInRight"
           />
         </div>
         <div className="d-flex mt-4 ml-4">
@@ -103,7 +129,7 @@ export default function Courses() {
           />
         </div>
         {/* <!--Electrical Engineering--> */}
-        <h4 className="mt-4 mb-4 ml-4">(Electrical Engineering)</h4>
+        <h4 className="mt-4 mb-4 ml-4">{t("College")}</h4>
 
         <div className="d-flex mt-4 ml-4">
           <h4 className="mt-4">Revit MEP</h4>
