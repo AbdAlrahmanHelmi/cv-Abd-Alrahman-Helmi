@@ -1,19 +1,16 @@
 import React from "react";
-import footer from "./footer.css";
+import { useTranslation } from "react-i18next";
+import "./footer.css";
 
 export default function Footer() {
+  const [t, i18n] = useTranslation();
   return (
     <div className="container">
       <footer className="footer">
-        <h4 className="headeFooter">
-          All the details furnished above are true to the best of my knowledge
-          and belief. I will abide by all the rules and regulations of the
-          organization and do my best to the entire satisfaction of my
-          superiors.
-        </h4>
+        <h4 className="headeFooter">{t("Footer")}</h4>
         <div className="copySign">
-        <p><h3>&copy;</h3></p>
-        <h5>Abd Al-rahman Helmi</h5>
+          <h3> &copy; </h3>
+          <h5>Abd Al-rahman Helmi</h5>
         </div>
       </footer>
     </div>

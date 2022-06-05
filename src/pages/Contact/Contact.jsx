@@ -1,13 +1,15 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import gmail from "../../image/icons8-gmail-64.png";
 import linkedin from "../../image/icons8-linkedin-circled-48.png";
 import phone from "../../image/icons8-phone-48.png";
 import whatsapp from "../../image/icons8-whatsapp-48.png";
 import githup from "../../image/icons8-github-64.png";
-import contact from "./contact.css";
+import "./contact.css";
 import Helmet from "react-helmet";
 
 export default function Contact() {
+  const [t, i18n] = useTranslation();
   return (
     <div className="container">
       <Helmet>
@@ -15,7 +17,7 @@ export default function Contact() {
         <meta name="description" content="Contact Abd Al-Rahman Helmi" />
       </Helmet>
       <div className="contact mt-4  animate__animated animate__zoomInDown  ">
-        <h2 className="headerContact  ">Contact:</h2>
+        <h2 className="headerContact  ">{t("Contact")}</h2>
         <div className="marginTop">
           <div className="d-flex  ml-2 mt-4">
             <img src={gmail} alt="email logo" />
