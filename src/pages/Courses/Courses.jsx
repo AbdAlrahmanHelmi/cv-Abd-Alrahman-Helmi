@@ -15,6 +15,9 @@ import plc from "../../image/PLC.jpg";
 import pv from "../../image/PV.png";
 import autocad from "../../image/Autocad-Logo-2009-2014.png";
 import ic3 from "../../image/IC3.jpg";
+import node from "../../image/node.png"
+import express from "../../image/express.png"
+import mongoDB from "../../image/mongoDB.png"
 import "./courses.css";
 import Helmet from "react-helmet";
 
@@ -37,6 +40,36 @@ export default function Courses() {
           </h4>
           <img
             src={reactJs}
+            alt="react-logo"
+            className="logoCourse animate__animated animate__slideInRight"
+          />
+        </div>
+        <div className="d-flex mt-4 ml-4">
+          <h4 className="mt-4 mr-4 animate__animated animate__slideInLeft">
+            Node.js
+          </h4>
+          <img
+            src={node}
+            alt="react-logo"
+            className="logoCourse animate__animated animate__slideInRight"
+          />
+        </div>
+        <div className="d-flex mt-4 ml-4">
+          <h4 className="mt-4 mr-4 animate__animated animate__slideInLeft">
+            Express.js
+          </h4>
+          <img
+            src={express}
+            alt="react-logo"
+            className="logoCourse animate__animated animate__slideInRight"
+          />
+        </div>
+        <div className="d-flex mt-4 ml-4">
+          <h4 className="mt-4 mr-4 animate__animated animate__slideInLeft">
+            mongoDB
+          </h4>
+          <img
+            src={mongoDB}
             alt="react-logo"
             className="logoCourse animate__animated animate__slideInRight"
           />
